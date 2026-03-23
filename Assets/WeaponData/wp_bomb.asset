@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d6cba2313d49e640b9c7640c74e1ece, type: 3}
+  m_Name: wp_bomb
+  m_EditorClassIdentifier: 
+  itemName: Bomb
+  itemType: 0
+  description: "S\u1EE9c c\xF4ng ph\xE1 m\u1EA1nh nh\u01B0ng h\u1ED3i chi\xEAu l\xE2u
+    v\xE0 ng\u1ED1n nhi\u1EC1u mana."
+  itemIcon: {fileID: 8504233609721927437, guid: 228388170b2519f42aff5420667ae86a, type: 3}
+  dropScale: 0.7
+  isStackable: 0
+  sellPrice: 200
+  rarity: 1
+  isWeapon: 1
+  weaponPrefab: {fileID: 928119608497752796, guid: b91c2e0adf08eb946b7272b235c63bd5, type: 3}
+  damage: 20
+  manaCost: 8

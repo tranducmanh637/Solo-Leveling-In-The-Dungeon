@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f79bb7f227418f4fa022fb60d6807d1, type: 3}
+  m_Name: Player_Alex
+  m_EditorClassIdentifier: 
+  characterName: Alex
+  description: 
+  idleFrames:
+  - {fileID: 2478529325408219346, guid: 4b6c1cb48ce98ae4b85c6e2f7e3d3a70, type: 3}
+  - {fileID: -7103171394521859953, guid: 4b6c1cb48ce98ae4b85c6e2f7e3d3a70, type: 3}
+  - {fileID: -8616022020919890545, guid: 4b6c1cb48ce98ae4b85c6e2f7e3d3a70, type: 3}
+  - {fileID: -2916387991053445229, guid: 4b6c1cb48ce98ae4b85c6e2f7e3d3a70, type: 3}
+  walkFrontFrames:
+  - {fileID: 1082693692130115535, guid: 4b6c1cb48ce98ae4b85c6e2f7e3d3a70, type: 3}
+  - {fileID: 3378516505240506202, guid: 4b6c1cb48ce98ae4b85c6e2f7e3d3a70, type: 3}
+  - {fileID: -4345815255602455890, guid: 4b6c1cb48ce98ae4b85c6e2f7e3d3a70, type: 3}
+  - {fileID: -2024510621748805540, guid: 4b6c1cb48ce98ae4b85c6e2f7e3d3a70, type: 3}
+  walkBackFrames:
+  - {fileID: 1856250631553992757, guid: 4b6c1cb48ce98ae4b85c6e2f7e3d3a70, type: 3}
+  - {fileID: 4400935894576185827, guid: 4b6c1cb48ce98ae4b85c6e2f7e3d3a70, type: 3}
+  - {fileID: 5039814134543589141, guid: 4b6c1cb48ce98ae4b85c6e2f7e3d3a70, type: 3}
+  - {fileID: -1910133829053094099, guid: 4b6c1cb48ce98ae4b85c6e2f7e3d3a70, type: 3}
+  walkRightFrames:
+  - {fileID: -8456394517918380079, guid: 4b6c1cb48ce98ae4b85c6e2f7e3d3a70, type: 3}
+  - {fileID: 3935976867046505857, guid: 4b6c1cb48ce98ae4b85c6e2f7e3d3a70, type: 3}
+  - {fileID: 3706514828983799818, guid: 4b6c1cb48ce98ae4b85c6e2f7e3d3a70, type: 3}
+  - {fileID: 7540950283523258618, guid: 4b6c1cb48ce98ae4b85c6e2f7e3d3a70, type: 3}
+  - {fileID: -8126231866482541977, guid: 4b6c1cb48ce98ae4b85c6e2f7e3d3a70, type: 3}
+  - {fileID: -2729816984227283290, guid: 4b6c1cb48ce98ae4b85c6e2f7e3d3a70, type: 3}
+  strength: 5
+  speed: 5
+  maxHealth: 100
+  hpRegen: 0
+  maxMana: 100
+  manaRegen: 0

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d6cba2313d49e640b9c7640c74e1ece, type: 3}
+  m_Name: wp_glock
+  m_EditorClassIdentifier: 
+  itemName: "S\xFAng Glock"
+  itemType: 0
+  description: "\u0110\u1ED9 gi\u1EADt kh\xF4ng cao n\xEAn l\u1EA7n ng\u1EAFt qu\u1EA3n
+    ng\u1EAFn , b\u1EAFn \u1EDF \u1EDF li xa,"
+  itemIcon: {fileID: 5038196956188105795, guid: da861840f498fa242ba35d2358444e42, type: 3}
+  dropScale: 0.5
+  isStackable: 0
+  sellPrice: 200
+  rarity: 2
+  isWeapon: 1
+  weaponPrefab: {fileID: 2812726635743039668, guid: 32456aef02134e84eba4e8806bd0415f, type: 3}
+  damage: 3
+  manaCost: 2

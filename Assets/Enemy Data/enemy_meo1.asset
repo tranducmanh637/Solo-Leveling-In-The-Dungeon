@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6b127c1b4a37004db20b8948f9a19ff, type: 3}
+  m_Name: enemy_meo1
+  m_EditorClassIdentifier: 
+  enemyName: "m\xE8o 1"
+  description: 
+  equippedWeapon: {fileID: 11400000, guid: 85a6aaa8bba86ed498fb688ab01838d5, type: 2}
+  orbitRadius: 0
+  attackRange: 5
+  maxHealth: 150
+  strength: 1
+  speed: 2
+  detectionRange: 10
+  actionList:
+  - actionType: 0
+    targetPosition: {x: 0, y: 1}
+    duration: 5
+  - actionType: 1
+    targetPosition: {x: 0, y: 0}
+    duration: 10
+  - actionType: 0
+    targetPosition: {x: 1, y: 0}
+    duration: 5
+  idleFrames:
+  - {fileID: -4580781827800559826, guid: fcef5fc8de9e7ff4ea12c6c9375ff4fd, type: 3}
+  - {fileID: 659722849757306778, guid: fcef5fc8de9e7ff4ea12c6c9375ff4fd, type: 3}
+  - {fileID: -5839558495315948816, guid: fcef5fc8de9e7ff4ea12c6c9375ff4fd, type: 3}
+  - {fileID: 9173653353154058646, guid: fcef5fc8de9e7ff4ea12c6c9375ff4fd, type: 3}
+  walkFrontFrames:
+  - {fileID: 7813981273830464919, guid: fcef5fc8de9e7ff4ea12c6c9375ff4fd, type: 3}
+  - {fileID: -861025234634179263, guid: fcef5fc8de9e7ff4ea12c6c9375ff4fd, type: 3}
+  - {fileID: 325869496318197480, guid: fcef5fc8de9e7ff4ea12c6c9375ff4fd, type: 3}
+  - {fileID: 7536096014606795997, guid: fcef5fc8de9e7ff4ea12c6c9375ff4fd, type: 3}
+  walkBackFrames:
+  - {fileID: 3827431723852924358, guid: fcef5fc8de9e7ff4ea12c6c9375ff4fd, type: 3}
+  - {fileID: 341072235936812628, guid: fcef5fc8de9e7ff4ea12c6c9375ff4fd, type: 3}
+  - {fileID: 7133555518251851182, guid: fcef5fc8de9e7ff4ea12c6c9375ff4fd, type: 3}
+  - {fileID: -2156554790488393199, guid: fcef5fc8de9e7ff4ea12c6c9375ff4fd, type: 3}
+  walkRightFrames:
+  - {fileID: -1338296518614664242, guid: fcef5fc8de9e7ff4ea12c6c9375ff4fd, type: 3}
+  - {fileID: 4332739064257549274, guid: fcef5fc8de9e7ff4ea12c6c9375ff4fd, type: 3}
+  - {fileID: 7709653897392701026, guid: fcef5fc8de9e7ff4ea12c6c9375ff4fd, type: 3}
+  - {fileID: -3208094505858965001, guid: fcef5fc8de9e7ff4ea12c6c9375ff4fd, type: 3}
+  - {fileID: 3979889961727949196, guid: fcef5fc8de9e7ff4ea12c6c9375ff4fd, type: 3}
+  - {fileID: -6006223209666841479, guid: fcef5fc8de9e7ff4ea12c6c9375ff4fd, type: 3}
+  goldTotalAmount: 2
+  goldVisualPieces: 3
+  goldPrefab: {fileID: 1132930638336086314, guid: 58e189715fc741f41b3d48308152593d, type: 3}
+  manaTotalAmount: 2
+  manaVisualPieces: 3
+  manaPrefab: {fileID: 1837009531509082800, guid: e6358d910344e8c48ac160d3ed366560, type: 3}
+  healthTotalAmount: 2
+  healthVisualPieces: 3
+  healthPrefab: {fileID: 6399369570825098583, guid: a05ac11f3adac414f8d92c7dedc7d45d, type: 3}
+  droppedItemPrefab: {fileID: 5108091248776961991, guid: d09a95ff57107d74b912a8d108b1e091, type: 3}
+  dropItems:
+  - item: {fileID: 11400000, guid: f83eefdbfd577e1409702ee786a94e82, type: 2}
+    dropChance: 1
+    minAmount: 0
+    maxAmount: 1
+  - item: {fileID: 11400000, guid: b15efd6ebb28d9f4a9edac805e6c52c0, type: 2}
+    dropChance: 50
+    minAmount: 0
+    maxAmount: 1
+  - item: {fileID: 11400000, guid: 6350136fd21d74548afbe697e5ea7bb7, type: 2}
+    dropChance: 25.5
+    minAmount: 0
+    maxAmount: 1
+  - item: {fileID: 11400000, guid: 85a6aaa8bba86ed498fb688ab01838d5, type: 2}
+    dropChance: 50
+    minAmount: 0
+    maxAmount: 1

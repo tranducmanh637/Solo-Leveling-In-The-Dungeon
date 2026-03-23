@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d6cba2313d49e640b9c7640c74e1ece, type: 3}
+  m_Name: wp_Solara's Blade
+  m_EditorClassIdentifier: 
+  itemName: Solara's Blade
+  itemType: 0
+  description: "Solara's Blade l\xE0 m\u1ED9t thanh ki\u1EBFm m\xEA ho\u1EB7c c\u1ED5
+    x\u01B0a \u0111\u01B0\u1EE3c r\xE8n b\u1EB1ng s\u1EE9c m\u1EA1nh c\u1EE7a m\u1EB7t
+    tr\u1EDDi."
+  itemIcon: {fileID: -1793189291664850387, guid: eb4bb5928e41a1046986c5a27da40c50, type: 3}
+  dropScale: 0.6
+  isStackable: 0
+  sellPrice: 5
+  rarity: 4
+  isWeapon: 1
+  weaponPrefab: {fileID: 3640253690185987312, guid: 355ee6abd4461b94b9fed0f438987a17, type: 3}
+  damage: 6
+  manaCost: 0

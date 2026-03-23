@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d6cba2313d49e640b9c7640c74e1ece, type: 3}
+  m_Name: wp_Solara's Fury
+  m_EditorClassIdentifier: 
+  itemName: Solara's Fury
+  itemType: 0
+  description: "\u0110\u01B0\u1EE3c r\xE8n t\u1EEB t\xE0n d\u01B0 c\u1EE7a m\u1ED9t
+    ng\xF4i sao \u0111ang h\u1EA5p h\u1ED1i, Solara's Fury b\xF9ng ch\xE1y v\u1EDBi
+    n\u0103ng l\u01B0\u1EE3ng m\u1EB7t tr\u1EDDi tinh khi\u1EBFt. "
+  itemIcon: {fileID: -8664994598298739777, guid: 34956a4799c0f8f4b923cffac7290f63, type: 3}
+  dropScale: 0.5
+  isStackable: 0
+  sellPrice: 999
+  rarity: 5
+  isWeapon: 1
+  weaponPrefab: {fileID: 528513583002490977, guid: 028f08c02177e9e428ce4d8913a9023a, type: 3}
+  damage: 5
+  manaCost: 0

@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f79bb7f227418f4fa022fb60d6807d1, type: 3}
+  m_Name: Player_LouisVI
+  m_EditorClassIdentifier: 
+  characterName: Louis VI
+  description: 
+  idleFrames:
+  - {fileID: 8449013301039293661, guid: 6d7fd05e41f67b542a7ea7b7ac9188ec, type: 3}
+  - {fileID: -7010003210476902103, guid: 6d7fd05e41f67b542a7ea7b7ac9188ec, type: 3}
+  - {fileID: 885109642790967056, guid: 6d7fd05e41f67b542a7ea7b7ac9188ec, type: 3}
+  - {fileID: 3301706834106084595, guid: 6d7fd05e41f67b542a7ea7b7ac9188ec, type: 3}
+  walkFrontFrames:
+  - {fileID: -4159225162206898771, guid: 6d7fd05e41f67b542a7ea7b7ac9188ec, type: 3}
+  - {fileID: 8811038495463114024, guid: 6d7fd05e41f67b542a7ea7b7ac9188ec, type: 3}
+  - {fileID: 1344971286894399275, guid: 6d7fd05e41f67b542a7ea7b7ac9188ec, type: 3}
+  - {fileID: 8980173128062041831, guid: 6d7fd05e41f67b542a7ea7b7ac9188ec, type: 3}
+  walkBackFrames:
+  - {fileID: -5368685140411108349, guid: 6d7fd05e41f67b542a7ea7b7ac9188ec, type: 3}
+  - {fileID: -3653554448541987875, guid: 6d7fd05e41f67b542a7ea7b7ac9188ec, type: 3}
+  - {fileID: -2296926250615325239, guid: 6d7fd05e41f67b542a7ea7b7ac9188ec, type: 3}
+  - {fileID: 4236888889369972534, guid: 6d7fd05e41f67b542a7ea7b7ac9188ec, type: 3}
+  walkRightFrames:
+  - {fileID: 6647999460527133120, guid: 6d7fd05e41f67b542a7ea7b7ac9188ec, type: 3}
+  - {fileID: -5645725679483677197, guid: 6d7fd05e41f67b542a7ea7b7ac9188ec, type: 3}
+  - {fileID: 6920514887875699830, guid: 6d7fd05e41f67b542a7ea7b7ac9188ec, type: 3}
+  - {fileID: 4253361594210039678, guid: 6d7fd05e41f67b542a7ea7b7ac9188ec, type: 3}
+  - {fileID: -1245889184723616477, guid: 6d7fd05e41f67b542a7ea7b7ac9188ec, type: 3}
+  - {fileID: 3160606041048831148, guid: 6d7fd05e41f67b542a7ea7b7ac9188ec, type: 3}
+  strength: 5
+  speed: 5
+  maxHealth: 105
+  hpRegen: 0
+  maxMana: 95
+  manaRegen: 0

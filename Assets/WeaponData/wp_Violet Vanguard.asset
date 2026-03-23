@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d6cba2313d49e640b9c7640c74e1ece, type: 3}
+  m_Name: wp_Violet Vanguard
+  m_EditorClassIdentifier: 
+  itemName: Violet Vanguard
+  itemType: 0
+  description: "Vanguard Violet l\xE0 m\u1ED9t thanh ki\u1EBFm m\xEA ho\u1EB7c c\xF3
+    v\u1EBB ngo\xE0i b\xED \u1EA9n. L\u01B0\u1EE1i ki\u1EBFm c\u1EE7a n\xF3 r\u1EF1c
+    r\u1EE1 v\u1EDBi qu\u1EA7ng s\xE1ng m\xE0u t\xEDm."
+  itemIcon: {fileID: -4631977088011880818, guid: e128f894b6bfd874796f4a4cb2e6d2cb, type: 3}
+  dropScale: 0.6
+  isStackable: 0
+  sellPrice: 0
+  rarity: 3
+  isWeapon: 1
+  weaponPrefab: {fileID: 807841519376816507, guid: f21bf26f764921448a6d70db7d29dc11, type: 3}
+  damage: 7
+  manaCost: 0
