@@ -43,6 +43,9 @@ TagManager:
   - name: Ground
     uniqueID: 3046463785
     locked: 0
+  - name: ForeGround
+    uniqueID: 1508001587
+    locked: 0
   - name: Wall
     uniqueID: 331355627
     locked: 0
